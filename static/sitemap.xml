@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>https://tomaserben.com/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>https://tomaserben.com/blog</loc>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>https://tomaserben.com/free-tools/days-until-date</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>https://tomaserben.com/free-tools/image-background-remover</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+  
+    <url>
+      <loc>https://tomaserben.com/blog/how-i-got-into-the-95th-percentile-of-earners-in-my-country-at-22-without-a-university-degree</loc>
+      <lastmod>2025-03-11</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+</urlset>

@@ -1,0 +1,24 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: SSH into VPS and Deploy
+      uses: appleboy/ssh-action@v1.2.2
+      with:
+        host: ${{ secrets.VPS_HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        script: |
+          cd ~/personal
+          git pull origin main
+          npm install
+          npm run build
+          pm2 restart personal
