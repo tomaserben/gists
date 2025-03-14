@@ -31,13 +31,9 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
-		"@imgly/background-removal": "^1.6.0",
 		"better-sqlite3": "^11.8.1",
-		"daisyui": "^5.0.0",
 		"drizzle-kit": "^0.30.5",
 		"drizzle-orm": "^0.40.0",
-		"face-api.js": "0.22.2",
-		"posthog-js": "^1.229.5",
-		"sqlite3": "^5.1.7"
+		"posthog-js": "^1.229.5"
 	}
 }

@@ -2,8 +2,7 @@ import { json } from '@sveltejs/kit';
 import db from '$lib/db';
 import { gists } from '$lib/db/schema';
 
-export async function GET({...data}) {
-  console.log(data)
+export async function GET() {
   const allGists = await db.select().from(gists);
   return json(allGists);
 }
